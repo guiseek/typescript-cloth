@@ -1,0 +1,15 @@
+{
+  "name": "typescript-cloth",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base=./",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
